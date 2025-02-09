@@ -39,7 +39,7 @@ const Footer = () => {
       <div className="bg-gray w-full">
         <div className="flex flex-col md:flex-row-reverse   md:justify-between items-center gap-8 p-7 secs">
           <ul className="flex gap-10">
-            <a href="#"><Github /></a>
+            <a href="https://github.com/sizan14789/WorldAtlas.git"><Github /></a>
             <Facebook />
             <Instagram />
           </ul>

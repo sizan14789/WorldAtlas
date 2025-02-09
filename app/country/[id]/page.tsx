@@ -1,3 +1,8 @@
+import { soloCountryInterface } from "@/utils";
+import { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+
 const getCountryData = async (name: string) => {
   const url = `https://restcountries.com/v3.1/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`;
   const res = await fetch(url, {
@@ -7,24 +12,27 @@ const getCountryData = async (name: string) => {
   return data[0];
 };
 
-import { soloCountryInterface } from "@/utils";
-import Image from "next/image";
-import Link from "next/link";
+interface NextPageProps {
+  params: Record<string, string>
+  searchParams?: URLSearchParams
+}
 
-export const generateMetadata = async ({params}:{params: {id: string}})=>{
-
+export const generateMetadata = async ({
+  params,
+}: { params: { id: string }}
+): Promise<Metadata> => {
   const id = params.id;
   const data: soloCountryInterface = await getCountryData(id);
 
-  console.log(data.name.official)
+  console.log(data.name.official);
 
   return {
     title: data.name.common,
-    description: data.name.official
-  }
-}
+    description: data.name.official,
+  };
+};
 
-const Country = async ({ params }: { params: { id: string } }) => {
+const Country = async ({ params }: { params: { id: string }} ) => {
   const id = params.id;
   const data: soloCountryInterface = await getCountryData(id);
   // console.log(data);

@@ -24,6 +24,7 @@ const ContactFormComponent = () => {
       message: messageField.value,
     });
   };
+  console.log(Message)
 
   return (
     <form className="flex flex-col gap-6" onSubmit={handleFormSubmit}>
