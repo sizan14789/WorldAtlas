@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "MapPin",
+    "id": 1,
+    "title": "Find Us",
+    "details": "Dhaka, Bangladesh"
+  },
+  {
+    "icon": "Phone",
+    "id": 2,
+    "title": "Call Us",
+    "details": "01900000000"
+  },
+  {
+    "icon": "Mail",
+    "id": 3,
+    "title": "Mail Us",
+    "details": "sizanalt@gmail.com"
+  }
+]
