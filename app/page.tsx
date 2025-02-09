@@ -12,6 +12,7 @@ export default function Home() {
             fill={true}
             alt="logo-world-atlas"
             className="object-cover p-3"
+            priority
           />
         </figure>
         <div className="flex flex-col flex-1 gap-5 justify-center">
