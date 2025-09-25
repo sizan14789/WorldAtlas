@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 World Atlas
 
-## Getting Started
+A **static website** built with **Next.js** and **TypeScript** that provides detailed information about countries around the world. Explore country data, flags, capitals, population, and other interesting facts in a clean and responsive interface.
 
-First, run the development server:
+---
+
+## Preview
+
+### Desktop
+
+<p align="center">
+  <img src="./assets/homepage.png" alt="Homepage Desktop" width="75%" />
+  <img src="./assets/countries.png" alt="All countries Page Desktop" width="75%" />
+  <img src="./assets/country.png" alt="Country Page Desktop" width="75%" />
+</p>
+
+### Mobile
+
+<p align="center">
+  <img src="./assets/homepageMobile.png" alt="Homepage Mobile" width="30%" />
+  <img src="./assets/countriesMobile.png" alt="All countries Page Mobile" width="30%" />
+  <img src="./assets/countryMobile.png" alt="Country Page Mobile" width="30%" />
+</p>
+
+---
+
+## 🖥️ Features
+
+- **Static site generation** with Next.js and TypeScript for fast performance  
+- **Responsive design** for mobile and desktop  
+- **Country information** including flags, capital, population, region, and more  
+- **Search and filter functionality** to quickly find countries  
+- **Clean and modern UI** for easy navigation and readability  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** – React framework for static site generation and routing  
+- **TypeScript** – Type safety and improved developer experience  
+- **React** – Component-based UI design  
+- **Tailwind** – Styling and responsive layouts  
+
+---
+
+## 🚀 Getting Started
+
+#### Clone the repo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/sizan14789/WorldAtlas.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### install dependencies
+```
+npm i
+```
+#### Run
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000 with your browser to see the result.
