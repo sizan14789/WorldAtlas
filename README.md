@@ -4,6 +4,13 @@ A **static website** built with **Next.js** and **TypeScript** that provides det
 
 ---
 
+# Live Link
+
+[_Click here_](https://world-atlas-sizan.vercel.app/) or copy and paste https://world-atlas-sizan.vercel.app/
+
+
+---
+
 ## Preview
 
 ### Desktop
@@ -26,20 +33,20 @@ A **static website** built with **Next.js** and **TypeScript** that provides det
 
 ## 🖥️ Features
 
-- **Static site generation** with Next.js and TypeScript for fast performance  
-- **Responsive design** for mobile and desktop  
-- **Country information** including flags, capital, population, region, and more  
-- **Search and filter functionality** to quickly find countries  
-- **Clean and modern UI** for easy navigation and readability  
+- **Static site generation** with Next.js and TypeScript for fast performance
+- **Responsive design** for mobile and desktop
+- **Country information** including flags, capital, population, region, and more
+- **Search and filter functionality** to quickly find countries
+- **Clean and modern UI** for easy navigation and readability
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Next.js** – React framework for static site generation and routing  
-- **TypeScript** – Type safety and improved developer experience  
-- **React** – Component-based UI design  
-- **Tailwind** – Styling and responsive layouts  
+- **Next.js** – React framework for static site generation and routing
+- **TypeScript** – Type safety and improved developer experience
+- **React** – Component-based UI design
+- **Tailwind** – Styling and responsive layouts
 
 ---
 
@@ -52,10 +59,13 @@ git clone https://github.com/sizan14789/WorldAtlas.git
 ```
 
 #### install dependencies
+
 ```
 npm i
 ```
+
 #### Run
+
 ```
 npm run dev
 ```
